@@ -12,7 +12,7 @@ var App = {
 
     settings: {
         name: "PixKit",
-        version: "0.1.1",
+        version: "0.1.2",
         ga: {
             urchin: "UA-XXXXXX-XX",
             url: "https://github.com/PixLandMedia/PixKit"

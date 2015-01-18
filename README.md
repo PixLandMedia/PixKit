@@ -49,11 +49,14 @@ to
 ##Contact
 
 **PixLand Media**
+
 web: [www.pixlandmedia.com]
 
 email: [support@pixlandmedia.com]
 
+
 **Tamás Németh**
+
 [nemeth@pixlandmedia.com]
 
 
@@ -83,20 +86,27 @@ SOFTWARE.
 
 
 
-## CHangelog
+## Changelog
+
+**01.18.15 v0.1.2:**
+
+- UPDATED README.md
+
 
 **01.18.15 v0.1.1:**
-    UPDATED README.md
+
+- UPDATED README.md
 
 
 **01.18.15 v0.1.0:**
-    Initial Release
-    ADDED Application structure
-    ADDED Bootstrap 3.3.1
-    ADDED Font Awesome 4.2.0
-    ADDED jQuery 2.1.3
-    ADDED normalize-css 3.0.2
-    ADDED Slidebars.js 0.10.2 
+
+- Initial Release
+- ADDED Application structure
+- ADDED Bootstrap 3.3.1
+- ADDED Font Awesome 4.2.0
+- ADDED jQuery 2.1.3
+- ADDED normalize-css 3.0.2
+- ADDED Slidebars.js 0.10.2 
 
 
 
