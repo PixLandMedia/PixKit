@@ -1,0 +1,154 @@
+/*==================================
+=            Navigation            =
+==================================*/
+
+.navbar {
+    //  color: $color-text-light;
+    background:$color-background-dark;
+    border-bottom: solid 2px $color-border;
+
+    .menu {
+        //display:block;
+        margin: 0;
+        padding: 0;
+        //float: right;
+        
+        li {
+            display: inline-block;
+            position: relative;
+            z-index:100;
+        
+            &:hover {
+                color:$color-white;
+                background:$color-background-primary; 
+
+                /* display second level menu on hover */
+                >ul {
+                    display: block;
+                }
+            }
+
+            a {
+                font-weight:300;
+                text-decoration:none;
+                display:block;
+                color:$color-white;
+                padding: 8px 20px;
+                @include transition( all 0.2s ease-in-out 0s );             
+
+                &:hover {
+                    color:$color-white;
+                    background:$color-background-primary; 
+                }
+            }
+        }
+
+        >li {
+            >a {
+                padding: 21px 25px;
+            }
+            
+            /*
+            &:last-child {
+
+                ul {
+                    //left: -$width-menu;
+
+                    ul {
+                        left: -$width-menu;
+                    }
+                }
+            }
+            */
+        }
+
+        /* hide the second level menu */
+
+
+        ul {
+            display: none;
+            min-width: $width-menu;
+            position: absolute;
+            padding:0;
+            border-top: solid 2px $color-border;
+            
+            li {
+                display:block;
+                float: none;
+                background:none;
+                margin:0;
+                padding:0;
+
+                &:hover {
+                    background:$color-background-light;
+
+                    > a {
+                        background:$color-background-light;
+                        border-left:2px solid $color-border;  
+                        color:$color-text;
+                    }
+                }
+
+                a {
+                    font-size:13px;
+                    font-weight:normal;
+                    display:block;
+                    color:$color-text;
+                    border-left:2px solid $color-background;  
+                    border-bottom: 1px solid darken( $color-border-light, 5% );
+                    background:$color-background;
+
+                    &:hover {
+                        background:$color-background-light;
+                        border-left:2px solid $color-border;
+                        //color:$color-white;#f8494c
+                    }
+                    
+                }
+                
+                &:last-child {
+                    a {
+                        border-bottom: 0;
+                    }
+                }
+            }
+
+            /* change level 3 menu positions */
+            ul {
+                border-top: 0;
+                //border-left:1px solid $color-background-light;  
+                left: $width-menu;
+                top: 0px;
+                
+            }   
+        }
+
+        .dropdown-submenu {
+            >a {
+                border-left:2px solid $color-border;  
+            }
+        }
+    }
+}
+
+
+.nav-xs {
+
+    h1 {
+        margin: 5px auto;
+
+        a {
+            color: $color-link-light;
+        }
+
+    }
+
+    i {
+        margin-top: 12px;
+        color: $color-text-light;
+    }
+
+}
+
+/*-----  End of Navigation  ------*/
+

@@ -1,0 +1,131 @@
+/*=============================
+=            Fonts            =
+=============================*/
+
+// Font family
+$font-family-primary: "Roboto",Helvetica,sans-serif;
+$font-family-secondary: 'Source Sans Pro';
+
+// Font size
+$font-size: 14px;
+$font-size-tablet: 14px;
+$font-size-mobile: 14px;
+
+// Font weight
+$font-weight-text: 300;
+$font-weight-navigation: 500;
+$font-weight-button: 400;
+
+// Line height
+$line-height: 1.7;
+$line-height-tablet: 21px;
+$line-height-mobile: 19px;
+
+/*-----  End of Fonts  ------*/
+
+
+
+/*==============================
+=            Colors            =
+==============================*/
+// by materialpalette.com
+
+// Default colors
+$color-primary: #2196F3;
+$color-primary-dark: #1976D2;
+$color-primary-light: #BBDEFB;
+$color-secondary: #FF9800;
+$color-white: #fff;
+$color-light: #f1f1f1;
+$color-dark: #393939;
+
+// Text Colors
+$color-text: #212121;
+$color-text-secondary: #727272;
+$color-text-light: $color-white;
+
+// Link colors
+$color-link: $color-primary;
+$color-link-hover: $color-primary-dark;
+$color-link-light: $color-white;
+
+// Divider color
+$color-divider: #B6B6B6;
+
+// Border colors
+$color-border: $color-primary;
+$color-border-secondary: $color-secondary;
+$color-border-light: $color-light;
+$color-border-dark: $color-dark;
+
+// Bacground colors
+$color-background: $color-light;
+$color-background-primary: $color-primary;
+$color-background-secondary: $color-secondary;
+$color-background-dark: $color-dark;
+$color-background-light: $color-light;
+$color-background-white: $color-white;
+
+// Bootstrap colors
+$brand-primary:         $color-primary !default;
+$brand-success:         #8BC34A !default;
+$brand-info:            #03A9F4 !default;
+$brand-warning:         #FF9800 !default;
+$brand-danger:          #F44336 !default;
+
+// Bootstrap state colors
+$state-success-text:             $brand-success !default;
+$state-success-bg:               lighten($brand-success, 55%) !default;
+$state-success-border:           darken(adjust-hue($state-success-bg, -10), 7%) !default;
+
+$state-info-text:                $brand-info !default;
+$state-info-bg:                  lighten($brand-info, 30%) !default;
+$state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;
+
+$state-warning-text:             $brand-warning !default;
+$state-warning-bg:               lighten($brand-warning, 35%) !default;
+$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 7%) !default;
+
+$state-danger-text:              $brand-danger !default;
+$state-danger-bg:                lighten($brand-danger, 30%) !default;
+$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 7%) !default;
+
+//Social Colors
+$color-dailymile: #FFAA25;
+$color-facebook: #3B5998;
+$color-flickr: #f80082;
+$color-github: #F7F7F7;
+$color-google: #d7473d;
+$color-instagram: #37658D;
+$color-linkedin: #2C8CC0;
+$color-pinterest: #c5142b;
+$color-runkeeper: #3193d3;
+$color-skype: #00abee;
+$color-spotify: #7AB800;
+$color-twitter: #3B8ACA;
+$color-dribbble: #e4488a;
+
+/*-----  End of Colors  ------*/
+
+
+
+/*==================================
+=            Navigation            =
+==================================*/
+
+$width-menu: 160px;
+
+/*-----  End of Navigation  ------*/
+
+
+
+/*==============================
+=            Radius            =
+==============================*/
+
+$radius-button: 4px;
+$border-radius-base:        0px !default;
+$border-radius-large:       0px !default;
+$border-radius-small:       0px !default;
+
+/*-----  End of Radius  ------*/

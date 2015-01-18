@@ -1,0 +1,73 @@
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video
+{
+    color: $color-text;
+    font-family: $font-family-primary;
+}
+
+body {
+    font-size: $font-size;
+    line-height: $line-height;
+    background: $color-background;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section.border {
+    border-bottom: solid 2px $color-border;
+    padding: 90px 0px;
+}
+
+p {
+    font-weight: $font-weight-text;
+}
+
+
+a {
+    color: $color-link;
+    @include transition(all 0.2s ease-in-out);
+
+    &:hover,
+    &:focus,
+    &:active{
+        color: $color-link-hover;
+        text-decoration: none;
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:$font-weight-button;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 68px;
+}
+
+h2 {
+    font-size: 44px;
+    line-height: 51px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h6 {
+    font-size: 20px;
+    line-height: 23px;
+}

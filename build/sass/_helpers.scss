@@ -1,0 +1,37 @@
+/*===============================
+=            Helpers            =
+===============================*/
+
+
+// Dividers
+hr.divider-one {
+    border: 0;
+    height: 1px;
+    background: $color-divider;
+}
+
+
+hr.divider-two {
+    border: 0;
+    height: 1px;
+    background: $color-secondary;
+}
+
+
+// Icon stack
+.icon-stack {
+    margin:20px 0;
+    text-align: center;
+
+    .fa-stack  {
+        font-size: 4em;
+
+        i:first-child {
+            color: $color-background-secondary;
+        }
+    }
+
+}
+
+
+/*-----  End of Helpers  ------*/
