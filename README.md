@@ -1,32 +1,32 @@
 #PixKit - CodeKit Kickoff Stack
- ---
+
 PixKit is a Codekit kickoff stack with Bootstrap 3, SASS, jQuery, Sidebars.js
 
 ##Installation
- ---
+
 Install PixKit either by [direct download], or git: 
 
 	git clone https://github.com/PixLandMedia/PixKit.git
 
 ## Compiled files
- ---
+
 The following files are automatically compiled by PixKit and should not be edited directly.
 - css/style.min.css
 - css/style.min.map
 - js/app.min.js
 
 ##Build Files:
- ---
+
 All Build files reside in the **build** directory
 
 ## KITS & HTMLS
- ---
+
 The project use Codekit's kit language ( [more info to Kit] )
 This allows you to build html includes (such as header/footer, etc.) without the need to use a dynamic language. 
 All Production HTML files reside in the **html** folder. As mentioned, it is best in most circumstances to not edit these files, since they are compiled from other sources.
 
 ## Included libraries:
- ---
+
 All third-party library files reside in the **build/bower_components** directory.
 The library's js files include the **build/js/app.js** file. For example:
 
@@ -47,9 +47,10 @@ to
 
 
 ##Contact
- ---
+
 **PixLand Media**
 web: [www.pixlandmedia.com]
+
 email: [support@pixlandmedia.com]
 
 **Tamás Németh**
@@ -57,8 +58,8 @@ email: [support@pixlandmedia.com]
 
 
 ## Project Licensing
- ---
- **The MIT License (MIT)**
+ 
+**The MIT License (MIT)**
 
 Copyright (c) 2015 PixLand Media
 
@@ -81,7 +82,27 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-[www.pixlandmedia.com]: http://www.stylemagazin.hu
+
+## CHangelog
+
+**01.18.15 v0.1.1:**
+    UPDATED README.md
+
+
+**01.18.15 v0.1.0:**
+    Initial Release
+    ADDED Application structure
+    ADDED Bootstrap 3.3.1
+    ADDED Font Awesome 4.2.0
+    ADDED jQuery 2.1.3
+    ADDED normalize-css 3.0.2
+    ADDED Slidebars.js 0.10.2 
+
+
+
+
+
+[www.pixlandmedia.com]: http://www.pixlandmedia.com
 [support@pixlandmedia.com]: mailto:support@pixlandmedia.com
 [nemeth@pixlandmedia.com]: mailto:nemeth@pixlandmedia.com
 [direct download]: https://github.com/PixLandMedia/PixKit/archive/master.zip

@@ -1,9 +1,13 @@
 {
     Project:  PixKit - CodeKit Kickoff Stack,
     Author:   Tamás Németh,
-    Version:  0.1.0,
+    Version:  0.1.1,
     Updated:  01.18.15
 }
+
+01.18.15 v0.1.1:
+    UPDATED README.md
+
 
 01.18.15 v0.1.0:
     Initial Release
