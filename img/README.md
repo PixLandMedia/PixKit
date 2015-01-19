@@ -1,0 +1,1 @@
+Drop your image assets this folder.
