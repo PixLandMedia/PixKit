@@ -12,7 +12,7 @@ var App = {
 
     settings: {
         name: "PixKit",
-        version: "0.1.2",
+        version: "0.1.3",
         ga: {
             urchin: "UA-XXXXXX-XX",
             url: "https://github.com/PixLandMedia/PixKit"
@@ -36,6 +36,7 @@ var App = {
     },
 
     slidebars: function() {
+
         // Slidebars initalization
         var mySlidebars = new $.slidebars(),
             submenu;
@@ -68,17 +69,10 @@ var App = {
             $('html, body').animate({scrollTop:target}, 500);
         });
 
-
     },
-
 };
 
 
 $(function() {
     App.init();
-
-
-
-
-
 });

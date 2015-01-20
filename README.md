@@ -8,6 +8,12 @@ Install PixKit either by [direct download], or git:
 
 	git clone https://github.com/PixLandMedia/PixKit.git
 
+
+##Demo
+
+[demo page]
+
+
 ## Compiled files
 
 The following files are automatically compiled by PixKit and should not be edited directly.
@@ -88,6 +94,11 @@ SOFTWARE.
 
 ## Changelog
 
+**01.20.15 v0.1.3:**
+- CHANGED navigation links
+- REMOVED index.html
+- ADDED /html/index.html
+
 **01.18.15 v0.1.2:**
 
 - UPDATED README.md
@@ -117,3 +128,4 @@ SOFTWARE.
 [nemeth@pixlandmedia.com]: mailto:nemeth@pixlandmedia.com
 [direct download]: https://github.com/PixLandMedia/PixKit/archive/master.zip
 [more info to Kit]: http://incident57.com/codekit/kit.php
+[demo page]: http://kickoff.pixlandmedia.com/pixkit/demo/html/index.html
