@@ -5,14 +5,14 @@
 
 // import libraries
 // @codekit-prepend "../bower_components/jquery/dist/jquery.min.js"
-// @codekit-prepend "../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"
-// @codekit-prepend "../bower_components/Slidebars/distribution/0.10.2/slidebars.min.js"
+// @codekit-prepend "../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"
+// @codekit-prepend "../bower_components/jQuery.mmenu/dist/js/jquery.mmenu.min.all.js"
 
 var App = {
 
     settings: {
         name: "PixKit",
-        version: "0.1.3",
+        version: "0.1.4",
         ga: {
             urchin: "UA-XXXXXX-XX",
             url: "https://github.com/PixLandMedia/PixKit"
@@ -23,8 +23,8 @@ var App = {
         // Kick off the listeners
         this.listen();
         
-        // Slidebars has been initalized
-        this.slidebars();
+        // jQuery mMenu has been initalized
+        this.mMenu();
 
         // Application has been initalized
         console.log(this.settings.name + "(v" + this.settings.version + ") Started");
@@ -35,41 +35,29 @@ var App = {
         console.log("Ready and Listening");
     },
 
-    slidebars: function() {
+    mMenu: function() {
 
-        // Slidebars initalization
-        var mySlidebars = new $.slidebars(),
-            submenu;
-
-        $('.sb-left-button').on('click', function() {
-            mySlidebars.slidebars.toggle('left');
-        });
-
-        $('.sb-right-button').on('click', function() {
-            mySlidebars.slidebars.toggle('right');
-        });
-
-        $('.sb-toggle-submenu').off('click').on('click', function() {
-            $submenu = $(this).parent().children('.sb-submenu');
-            $(this).add($submenu).toggleClass('sb-submenu-active'); // Toggle active class.
+       jQuery(document).ready(function() {
             
-            if ($submenu.hasClass('sb-submenu-active')) {
-                $submenu.slideDown(200);
-            } else {
-                $submenu.slideUp(200);
-            }
-        });
-
-        $('.sb-slidebar a[href^="#"]').on('touchend click', function(e) {
-            e.preventDefault();
-            var id = $(this).attr("href");
-            var offset = 70;
-            var target = $(id).offset().top - offset;
-            
-            $('html, body').animate({scrollTop:target}, 500);
-        });
-
+            jQuery("#mm-menu").mmenu({
+               "slidingSubmenus": false,
+               "classes": "mm-slide",
+               "extensions": [
+                  "theme-dark"
+               ],
+               "footer": {
+                  "add": true,
+                  "title": "PixKit Theme"
+               },
+               "header": {
+                  "title": "Menu",
+                  "add": true,
+                  "update": true
+               }
+            });
+         });
     },
+
 };
 
 

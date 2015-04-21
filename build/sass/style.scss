@@ -12,7 +12,7 @@
 =            Libraries            =
 =================================*/
 
-@import '../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap';
+@import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap';
 @import '../bower_components/font-awesome/scss/font-awesome';
 
 /*-----  End of Libraries  ------*/
@@ -28,15 +28,14 @@
 @import "helpers";
  
 // Modules
-
+@import "modules/article";
 
 // Layouts
 @import "layouts/header";
 @import "layouts/navigation";
 @import "layouts/page";
-@import "layouts/sidebar";
+@import "layouts/mmenu";
 @import "layouts/footer";
-@import "layouts/slidebars";
 
  
 // States

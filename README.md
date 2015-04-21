@@ -1,6 +1,6 @@
 #PixKit - CodeKit Kickoff Stack
 
-PixKit is a Codekit kickoff stack with Bootstrap 3, SASS, jQuery, Sidebars.js
+PixKit is a Codekit kickoff stack with Bootstrap 3, SASS, jQuery, jQuery.mMenu
 
 ##Installation
 
@@ -44,11 +44,11 @@ The library's sass files include the **build/sass/style.scss** file. For example
 
 The library's css files copy the **build/sass/layouts** or **build/sass/modules**. You should change the file's extension .scss for example: 
 
-    /build/bower_components/distribution/0.10.2/slidebars.min.css
+    /build/bower_components/jQuery.mmenu/dist/css/jquery.mmenu.all.css.css
 
 to
 
-    /build/sass/layouts/_slidebars.scss
+    /build/sass/layouts/_mmenu.scss
 
 
 
@@ -93,6 +93,16 @@ SOFTWARE.
 
 
 ## Changelog
+
+
+**04.21.15 v0.1.4:**
+- ADDED /build/kits/partials/menu.kit
+- ADDED jQuery.mMenu
+- ADDED .gitignore
+- REMOVED Slidebars.js
+- UPDATED Bootstrap 3.3.4
+- UPDATED Font Awesome 4.3.0
+
 
 **01.20.15 v0.1.3:**
 - CHANGED navigation links
