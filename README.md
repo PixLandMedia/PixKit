@@ -138,4 +138,4 @@ SOFTWARE.
 [nemeth@pixlandmedia.com]: mailto:nemeth@pixlandmedia.com
 [direct download]: https://github.com/PixLandMedia/PixKit/archive/master.zip
 [more info to Kit]: http://incident57.com/codekit/kit.php
-[demo page]: http://kickoff.pixlandmedia.com/pixkit/demo/html/index.html
+[demo page]: http://kickoff.pixlandmedia.com/PixKit/html/index.html
