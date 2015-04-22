@@ -4127,6 +4127,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/build\/kits\/partials\/footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/partials\/footer.kit",
+		"outputAbbreviatedPath": "\/html\/footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/build\/kits\/partials\/header.kit": {
 		"fileType": 2048,
 		"ignore": 1,

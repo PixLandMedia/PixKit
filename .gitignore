@@ -1,8 +1,6 @@
 /*
 !.gitignore
 
-.codekit-cache
-
 build/sass/.sass-cache
 build/sass/.sass-cache/*
 
